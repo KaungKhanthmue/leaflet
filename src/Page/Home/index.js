@@ -53,6 +53,11 @@ function BlueSky() {
       <Popup>
         <div>
           <h3>Blue Sky Restaurant</h3>
+          <img 
+            src={"/ကောင်းကင်ပြာ.png"}
+            alt={"ကောင်းကင်ပြာ"} 
+            className="w-full h-auto mt-1"
+          />
         </div>
       </Popup>
     </Marker>
@@ -76,7 +81,8 @@ function Index() {
         />
         <LimitBounds bounds={bounds} />
         <BlueSky />
-        <Pagoda name="ရှင်ပင်ဥတ္တမဘုရား" icon={pagodaIcon} image="/ရှင်ပင်ဥတ္တမဘုရား.png" position={[21.152968, 94.861757]} />
+        <Pagoda name="ရှင်ပင်ဥတ္တမဘုရား" icon={pagodaIcon} image="/ရှင်ပင်ဥတ္တမဘုရား.png" position={[21.152968, 94.861757]} location="မြင်းကပါရွာထဲ"/>
+        <Pagoda name="မနူဟာဘုရား" icon={pagodaIcon} image="/မနူဟာဘုရား.png" position={[21.153361, 94.859134]} location="မြင်းကပါရွာထဲ" />
       </MapContainer>
     </div>
   );
