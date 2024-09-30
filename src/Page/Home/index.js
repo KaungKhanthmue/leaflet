@@ -83,6 +83,10 @@ function Index() {
         <BlueSky />
         <Pagoda name="ရှင်ပင်ဥတ္တမဘုရား" icon={pagodaIcon} image="/ရှင်ပင်ဥတ္တမဘုရား.png" position={[21.152968, 94.861757]} location="မြင်းကပါရွာထဲ"/>
         <Pagoda name="မနူဟာဘုရား" icon={pagodaIcon} image="/မနူဟာဘုရား.png" position={[21.153361, 94.859134]} location="မြင်းကပါရွာထဲ" />
+        <Pagoda name="ရွေစေတီဘုရား" icon={pagodaIcon} image="/ရွေစေတီဘုရား.png" position={[21.155075, 94.863948]} location="မြင်းကပါရွာထဲ"/>
+        <Pagoda name="မြစေတီဘုရား" icon={pagodaIcon} image="/မြစေတီဘုရား.png" position={[21.157284, 94.861382]} location="မြင်းကပါရွာထဲ"/>
+        <Pagoda name="ဂူပြောက်ကြီးဘုရား" icon={pagodaIcon} image="/ဂူပြောက်ကြီးဘုရား.png" position={[21.157318,94.860646]} location="မြင်းကပါရွာထဲ"/>
+         
       </MapContainer>
     </div>
   );
